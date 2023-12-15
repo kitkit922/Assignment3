@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+// define class "picture"
+class picture{
+    var title = ""
+    var url = ""
+
+    init(title: String = "", url: String = "") {
+        self.title = title
+        self.url = url
+    }
+    
+    
+}
